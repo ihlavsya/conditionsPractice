@@ -140,7 +140,7 @@ namespace conditionsPractice
                     var power = Math.Pow(2, j);
                     fourDigitNumber += power * (binaryNumberSB[index] - '0');
                 }
-                   if (fourDigitNumber <= 9)
+                if (fourDigitNumber <= 9)
                 {
                     hexadecimalChar = ((int)fourDigitNumber).ToString();
                 }
@@ -154,7 +154,7 @@ namespace conditionsPractice
                         break;
                     case 12:
                         hexadecimalChar = "C";
-                        break;    
+                        break;
                     case 13:
                         hexadecimalChar = "D";
                         break;
